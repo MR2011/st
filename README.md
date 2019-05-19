@@ -6,7 +6,10 @@ I applied the following patches to my ST build:
 * Alpha
 * Clipboard
 * Xresources
+<<<<<<< HEAD
 
+=======
+>>>>>>> 47fee86 (update readme)
 Each patch is in its own branch and can be merged into the master branch.
 
 ## Installation
