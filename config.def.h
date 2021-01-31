@@ -183,6 +183,7 @@ static MouseShortcut mshortcuts[] = {
 
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
+#define WINKEY Mod4Mask
 #define TERMMOD (ControlMask|ShiftMask)
 
 static Shortcut shortcuts[] = {
@@ -193,8 +194,8 @@ static Shortcut shortcuts[] = {
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
 	{ MODKEY,               XK_plus,        zoom,           {.f = +1} },
 	{ MODKEY,               XK_minus,       zoom,           {.f = -1} },
-	{ MODKEY,               XK_0,           zoomreset,      {.f =  0} },
-	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
+	{ WINKEY,               XK_0,           zoomreset,      {.f =  0} },
+	{ WINKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
